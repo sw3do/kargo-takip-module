@@ -1,0 +1,34 @@
+{
+  "source": {
+    "include": ["./src/"],
+    "includePattern": "\\.(jsx|js|ts|tsx)$",
+    "exclude": ["node_modules/", "dist/"]
+  },
+  "opts": {
+    "destination": "./docs/",
+    "template": "node_modules/better-docs",
+    "readme": "./README.md"
+  },
+  "plugins": [
+    "node_modules/better-docs/typescript",
+    "node_modules/better-docs/category"
+  ],
+  "tags": {
+    "allowUnknownTags": ["category", "subcategory", "optional"]
+  },
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "better-docs": {
+      "name": "Kargo Takip Sistemi",
+      "title": "Kargo Takip API Dokümantasyonu",
+      "hideGenerator": true,
+      "navigation": [
+        {
+          "label": "GitHub",
+          "href": "https://github.com/sw3do/kargo-takip-module"
+        }
+      ]
+    }
+  }
+}

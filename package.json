@@ -1,0 +1,53 @@
+{
+  "name": "kargo-takip",
+  "version": "1.0.2",
+  "description": "Türkiye kargo takip modülü - Web scraping tabanlı kargo takip sistemi",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "docs": "jsdoc -c jsdoc.json",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sw3do/kargo-takip-module.git"
+  },
+  "homepage": "https://github.com/sw3do/kargo-takip-module#readme",
+  "bugs": {
+    "url": "https://github.com/sw3do/kargo-takip-module/issues"
+  },
+  "keywords": [
+    "kargo",
+    "takip",
+    "tracking",
+    "turkey",
+    "aras-kargo",
+    "cargo-tracking",
+    "web-scraping",
+    "puppeteer",
+    "typescript"
+  ],
+  "author": "sw3doo",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^24.16.1",
+    "user-agents": "^1.1.628"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.2.1",
+    "@types/user-agents": "^1.0.4",
+    "better-docs": "^2.7.3",
+    "http-server": "^14.1.1",
+    "jsdoc": "^4.0.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
