@@ -1,6 +1,6 @@
 {
   "name": "kargo-takip",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Türkiye kargo takip modülü - Web scraping tabanlı kargo takip sistemi",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
