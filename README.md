@@ -158,9 +158,6 @@ Yerel dokümantasyon oluşturmak için:
 ```bash
 # Dokümantasyonu oluştur
 npm run docs
-
-# Dokümantasyonu oluştur ve yerel sunucuda görüntüle
-npm run docs:serve
 ```
 
 Dokümantasyon `docs/` klasöründe oluşturulur ve http://localhost:8080 adresinde görüntülenebilir.
